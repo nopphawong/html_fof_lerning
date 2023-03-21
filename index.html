@@ -7,41 +7,159 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My First Weppage</title>
     <link rel="shortcut icon" href="images/html_logo700x700.png" type="image/x-icon">
+    <link rel="stylesheet" href="main.css">
 </head>
 
 <body>
-    <h1>Hello World!</h1>
-    <!-- p*100>lorem50 -->
-    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Lorem ipsum dolor sit amet <b>consectetur</b>, adipisicing elit.
-        <i>Mollitia</i> atque, exercitationem facilis, nihil
-        recusandae explicabo deleniti voluptatibus fugiat soluta eveniet cupiditate architecto autem? Est aperiam
-        reiciendis expedita corporis maxime unde porro, aut veniam doloribus quas ex eaque totam ea velit repellendus,
-        error eum vel nesciunt? Maiores perferendis aliquam ipsum dignissimos!</p>
-    <p>Sunt voluptates mollitia tempore temporibus <br><br><br><br><br><br><br> nulla voluptate vero obcaecati incidunt
-        sequi. Nobis voluptates nemo
-        non aliquid magni, necessitatibus quod quaerat deserunt ea perferendis, labore assumenda quo, soluta facere
-        laborum qui numquam aperiam porro praesentium dicta culpa impedit explicabo neque accusamus! Atque, non harum
-        alias tempore magnam delectus iste ab vero.</p>
+    <header>
+        <h1>Hello World!</h1>
+        <hr>
+    </header>
+    <nav>
+        <ul>
+            <li>
+                <a href="#one">One</a>
+            </li>
+            <li>
+                <a href="#two">Two</a>
+            </li>
+            <li>
+                <a href="#three">Three</a>
+            </li>
+            <li>
+                <a href="#four">Four</a>
+            </li>
+            <li>
+                <a href="/contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
 
-    <h2>Blar Blar</h2>
-    <ul>
-        <li>One</li>
-        <li>Two</li>
-        <li>Three</li>
-        <li>Four</li>
-        <li>Five</li>
-    </ul>
+    <section id="one">
+        <h2>Section One</h2>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Lorem ipsum dolor sit amet <b>consectetur</b>, adipisicing elit.
+            <i>Mollitia</i> atque, exercitationem facilis, nihil
+            recusandae explicabo deleniti voluptatibus fugiat soluta eveniet cupiditate architecto autem? Est aperiam
+            reiciendis expedita corporis maxime unde porro, aut veniam doloribus quas ex eaque totam ea velit
+            repellendus,
+            error eum vel nesciunt? Maiores perferendis aliquam ipsum dignissimos!
+        </p>
+        <br>
+        <p>Sunt voluptates mollitia tempore temporibus nulla voluptate vero obcaecati incidunt
+            sequi. Nobis voluptates nemo
+            non aliquid magni, necessitatibus quod quaerat deserunt ea perferendis, labore assumenda quo, soluta facere
+            laborum qui numquam aperiam porro praesentium dicta culpa impedit explicabo neque accusamus! Atque, non
+            harum
+            alias tempore magnam delectus iste ab vero.</p>
+    </section>
 
-    <dl>
-        <dt>Lorem ipsum dolor sit amet.</dt>
-        <dd>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi, rerum.</dd>
-    </dl>
+    <section id="two">
+        <h2>Section Two</h2>
+        <ul>
+            <li>One</li>
+            <li>Two</li>
+            <li>Three</li>
+            <li>Four</li>
+            <li>Five</li>
+        </ul>
 
+        <dl>
+            <dt>Lorem ipsum dolor sit amet.</dt>
+            <dd>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi, rerum.</dd>
+        </dl>
+    </section>
 
-    <a href="https://gitforwindows.org/" target="_blank">Google</a>
-    <a href="mailto:nopphaowong.n@gmail.com">Mail</a>
-    <a href="tel:084456564">123456789</a>
-    <a href="about.html">Go to About</a>
+    <section id="three">
+        <h2>Section Three</h2>
+        <table>
+            <caption>
+                Lerning Course Schedule
+            </caption>
+            <thead>
+                <tr>
+                    <th>&nbsp;</th>
+                    <th>Content</th>
+                    <th>Dificulty</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Tuesday</th>
+                    <td>HTML5</td>
+                    <td rowspan="2">Easy</td>
+                </tr>
+                <tr>
+                    <th>Wednesday</th>
+                    <td>CSS3</td>
+                </tr>
+                <tr>
+                    <th>Thursday</th>
+                    <td>JavaScript</td>
+                    <td rowspan="2">Normal</td>
+                </tr>
+                <tr>
+                    <th>Friday</th>
+                    <td>Bootstrap</td>
+                </tr>
+                <tr>
+                    <th>Satureday</th>
+                    <td>Final Project</td>
+                    <td>Very Easy</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">This is lerning content of HTML5 course schedule in 5 days</td>
+                </tr> 
+            </tfoot>
+        </table>
+    </section>
+
+    <section id="four">
+        <h2>Section Four</h2>
+        <h3>2 Best thing to Do in Chaing Rai</h3>
+        <ul>
+            <li>
+                <h4>Take a Tour Around Wat Rong Kun</h4>
+                <address>
+                    Off Highway 1 (Phahonyothihn road)
+                    15 kilometers
+                </address>
+                <figure>
+                    <img src="images/white_temple.jpg" alt="Wat Rong Khun" width="400" height="225" loading="lazy">
+                    <figcaption>
+                        The White Temple
+                    </figcaption>
+                </figure>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum ipsa ad optio non est iste maxime
+                    quo aperiam repellendus quibusdam vel eaque, distinctio impedit neque! Fuga culpa incidunt eveniet
+                    porro!</p>
+            </li>
+            <li>
+                <h4>Visit Baan Dam Museum</h4>
+                <address>
+                    Off Highway 1 (Phahonyothihn road)
+                    15 kilometers
+                </address>
+                <figure>
+                    <img src="images/black_house.jpg" alt="Ban Dam" width="400" height="225" loading="lazy">
+                    <figcaption>
+                        The Ban Dam
+                    </figcaption>
+                </figure>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde nesciunt reprehenderit commodi possimus
+                    tenetur, quod sunt quibusdam nulla dignissimos accusamus libero ipsa laboriosam, cum perferendis
+                    quae veniam assumenda, ipsam sapiente?</p>
+            </li>
+        </ul>
+    </section>
+
+    <footer>
+        <a href="https://gitforwindows.org/" target="_blank">Google</a>
+        <a href="mailto:nopphaowong.n@gmail.com">Mail</a>
+        <a href="tel:084456564">123456789</a>
+        <a href="about.html">Go to About</a>
+    </footer>
 </body>
 
 </html>
